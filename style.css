@@ -2,3 +2,7 @@ body{
     background-color: blue;
     color: white;
 }
+a {
+    text-decoration: none;
+    font-size: 49px;
+}
