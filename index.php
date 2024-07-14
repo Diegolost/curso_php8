@@ -47,11 +47,21 @@
              </div>
          </div>
      </nav>
-
-     <div class="container text-center mt-4">
+     <div class="container mt-4">
          <div class="row">
-             <div class="col-4">
-                 Parte 1
+             <div class="col-md-4 col-sm-12">
+                 <div class="mb-3">
+                     <label class="form-label">Edereço de Email</label>
+                     <input type="email" name="email" class="form-control" placeholder="name@example.com">
+                 </div>
+                 <div class="mb-3">
+                     <label class="form-label">Digite sua reclamação</label>
+                     <textarea name="reclamacao" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                 </div>
+
+             </div>
+             <div class="col-md-4 col-sm-12">
+                 Parte 2
                  <div class="card">
                      <div class="card-header">
                          Bem vindo ao sistema
@@ -63,10 +73,7 @@
                      </div>
                  </div>
              </div>
-             <div class="col-4">
-                 Parte 2
-             </div>
-             <div class="col-4">
+             <div class="col-md-4 col-sm-12">
                  Parte 3
                  <table class="table table-bordered table-hover">
                      <thead>
@@ -83,7 +90,7 @@
                              <td>Diego</td>
                              <td>111.111.111-11</td>
                              <td>
-                                <a class="btn btn-warning">Editar</a>
+                                 <a class="btn btn-warning">Editar</a>
                              </td>
                          </tr>
                          <tr>
