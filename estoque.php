@@ -1,6 +1,10 @@
 <?php
-$titulo = "Cadastro de Produtos";
+$titulo = "Estoque";
 $logo = "./img/2-removebg-preview.png";
 include "./layout/cabecalho.php";
 ?>
-<h1>Cadastro de produtos</h1>
+<h1>Estoque</h1>
+
+<?php
+include "./layout/rodape.php";
+?>

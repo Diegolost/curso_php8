@@ -1,6 +1,7 @@
 <?php
-$titulo = "Cadastro de Produtos";
+$titulo = "Intens Vendidos";
 $logo = "./img/2-removebg-preview.png";
 include "./layout/cabecalho.php";
 ?>
-<h1>Cadastro de produtos</h1>
+
+<h1>Itens Vendidos</h1>
